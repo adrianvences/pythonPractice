@@ -1,4 +1,13 @@
-total = 0 
-for number in range(0,11,2):
-  total += number
-print(total)
+travel_log = [
+  {
+    "country" : "america" ,
+    "cities_visited" : ["charlotte",
+    "nashville",'felon'],
+    "total_count" : 12,
+  },
+  {
+    "country" : "france",
+    'cities_visited' : ["none"] ,
+    'total_count' : 0 ,
+  },
+]
