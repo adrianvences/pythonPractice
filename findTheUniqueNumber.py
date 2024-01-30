@@ -9,11 +9,8 @@ def find_uniq(array):
       if num not in numbers:
         numbers[num] = 0
       numbers[num] += 1
-    # uniqueNum = int({i for i in numbers if numbers[i] ==1})
-
-    uniqueNum = numbers.index(1)
-    print(uniqueNum)
-    # print(uniqueNum)
-  # saving progress
+    for key in numbers:
+      if numbers[key] ==1:
+        print(key)
 
 find_uniq(arr)
