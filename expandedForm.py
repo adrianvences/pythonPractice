@@ -1,4 +1,4 @@
-number = 10500
+number = 10550
 
 def expandedForm(num):
   stringNum = str(num)
@@ -13,7 +13,7 @@ def expandedForm(num):
     
     # next to figure out how to get rid of '+' at end of the string
 
-  # print(st)
+  print(st[:-1])
 
 
 
