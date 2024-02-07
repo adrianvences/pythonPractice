@@ -6,4 +6,4 @@ def digitize(n):
     for num in reversed(stringOfNums):
         result.append(int(num))
     print(result)
-digitize(nums)
+digitize(nums)m
