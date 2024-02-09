@@ -1,1 +1,5 @@
-message = print("hello worldd")
+string = 'abBcED'
+
+stringLowered = string.lower()
+
+print(stringLowered)
