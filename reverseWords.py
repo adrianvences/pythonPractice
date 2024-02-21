@@ -12,7 +12,7 @@ def reverse_words(text):
     wordsReversed = ''
     for word in newString:
         wordsReversed +=  word[::-1] + ' '
-    return wordsReversed[1:]
+    return wordsReversed[:-1]
 
 # def reverse_words(text):
 #     newString = text.split(" ")
