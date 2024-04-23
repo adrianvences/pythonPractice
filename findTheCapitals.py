@@ -9,11 +9,19 @@ input ==> output
 "CodEWaRs" --> [0,3,4,6]
 '''
 
+# def capitals(word):
+#     order = []
+#     newList = list(word)
+#     for letter in newList:
+#         if letter.isupper():
+#             order.append(newList.index(letter))
+#     return order
+        #did not pass attempt 
+
 def capitals(word):
     order = []
-    newList = list(word)
-    for letter in newList:
-        if letter.isupper():
-            order.append(newList.index(letter))
+    for i in range(len(word)):
+        if word[i].isupper():
+            order.append(i)
     return order
         
